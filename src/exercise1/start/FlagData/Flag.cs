@@ -102,6 +102,10 @@ namespace FlagData
             }
             return false;
         }
+        public override string ToString()
+        {
+            return Country;
+        }
 
         /// <summary>
         /// Raises the INotifyPropertyChanged event.
