@@ -15,6 +15,7 @@ namespace FlagFacts
 
             MainPage = new NavigationPage(new AllFlagsPage());
         }
+    
 
         protected override void OnStart()
         {
